@@ -28,7 +28,7 @@ AWS_ACCESS_KEY_ID 
 AWS_SECRET_ACCESS_KEY 
 
 Put your access_key_id & secret_access_key in environment variables & & put it in sensitive 
-![access key   secret key](https://user-images.githubusercontent.com/115537106/209766280-5412926b-434f-4439-ba88-c42b7257190f.png
+![access key secret key](https://user-images.githubusercontent.com/115537106/209766280-5412926b-434f-4439-ba88-c42b7257190f.png)
 
 ### 3. Create API Token: 
 
