@@ -28,26 +28,18 @@ AWS_ACCESS_KEY_ID 
 AWS_SECRET_ACCESS_KEY 
 
 Put your access_key_id & secret_access_key in environment variables & & put it in sensitive 
-![access key   secret key](https://user-images.githubusercontent.com/115537106/209766280-5412926b-434f-4439-ba88-c42b7257190f.png)
+![access key   secret key](https://user-images.githubusercontent.com/115537106/209766280-5412926b-434f-4439-ba88-c42b7257190f.png
 
+### 3. Create API Token: 
 
+go to the Tokens page in your Terraform Cloud User Settings. Click on "Create an API token" and generate an API token named GitHub Actions.
+
+![token](https://user-images.githubusercontent.com/115537106/209768609-132f1349-1da2-4895-9477-4ff733e621e6.png)
  
-
- 
-
-3. Create API Token: 
-
-go to the Tokens page in your Terraform Cloud User Settings. Click on "Create an API token" and generate an API token named GitHub Actions. 
-
- 
-
- 
-
 Copy this token & save somewhere 
 
- 
 
-4.Setup a GitHub repository: 
+### 4.Setup a GitHub repository: 
 
 Forked this repo. 
 
@@ -57,11 +49,10 @@ Name: TF_API_TOKEN 
 
 In the secret copy the API token. 
 
- 
+![github secret](https://user-images.githubusercontent.com/115537106/209768698-a281cb61-04b4-42af-afd4-7e351240c403.png)
 
- 
 
-Then follow these commands: 
+### Then follow these commands: 
 
 $ git clone https://github.com/YOUR-USER-NAME/learn-terraform-github-actions 
 
@@ -79,21 +70,21 @@ $ git push 
 
  
 
- Navigate to your pull request. Your PR will trigger the Terraform Actions workflow. When the workflow completes, it will add a comment with the outcome of each step and a speculative plan. 
+Navigate to your pull request. Your PR will trigger the Terraform Actions workflow. When the workflow completes, it will add a comment with the outcome of each step and a speculative plan. 
 
 You can track the status of the apply job through GitHub Actions 
+![github action terraform1](https://user-images.githubusercontent.com/115537106/209768805-cd0e011b-e555-49ed-8685-b54f3b3788b3.png)
 
 Expand the "Terraform Apply" step. Terraform should have created the two resources and displayed the EC2 instance's address. 
 
- 
-
- 
-
+![github action terraform](https://user-images.githubusercontent.com/115537106/209768841-83dcd4e0-cf97-4345-80f2-13d0fc8b490e.png)
  
 
 Whatever web address you will get copy this address & run at the terminal with curl command. 
 
 You will get “Hello world” as an output. 
+
+![last output](https://user-images.githubusercontent.com/115537106/209768876-04659e07-1f28-4892-9221-81f1abd6a635.png)
 
  
 
