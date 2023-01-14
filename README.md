@@ -6,6 +6,8 @@ Automate Terraform with GitHub Action 
 
 This project is inspired by this [blog](https://developer.hashicorp.com/terraform/tutorials/automation/github-actions?in=terraform%2Fautomation#aws_secret_access_key)
 
+This is the video of this project.
+
 ### Prerequisite:
 
 Create an account in [Terraform cloud](https://app.terraform.io/session).
